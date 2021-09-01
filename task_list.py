@@ -72,14 +72,30 @@ tasks.append({
 print(tasks)
 
 # 8
-menu= input("Input a number")
-def menu(number)
-i = 0
-numbers = []
+# menu= input("Input a number")
+# def menu(number)
+# i = 0
+# numbers = []
 
-while menu = 1:
-    numbers.append(menu)
-print()
+# while menu = 1:
+#     numbers.append(menu)
+# print()
+
+user_option = input(f"choose something from the menu")
+while (user_option != "q"):
+    print("Menu:")
+    if (user_option == "2"):
+        print("1: Display All Tasks")
+    # print("2: Display Uncompleted Tasks")
+    # print("3: Display Completed Tasks")
+    # print("4: Mark Task as Complete")
+    # print("5: Get Tasks Which Take Longer Than a Given Time")
+    # print("6: Find Task by Description")
+    # print("7: Add a new Task to list")
+    # print("M or m: Display this menu")
+    # print("Q or q: Quit")
+
+
 
 
 
